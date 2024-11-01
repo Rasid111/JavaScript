@@ -1,0 +1,9 @@
+#Menu{
+    >h1:hover{
+        color: grey;
+        cursor: pointer;
+    }
+}
+.hidden{
+    display: none;
+}
