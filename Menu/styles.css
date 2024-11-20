@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    ul{
+        list-style-type: none;
+        li{
+            border: solid;
+            border-color: white;
+            border-width: 1px;
+        }
+        li:hover{
+            background-color: dodgerblue;
+            border-color: blue;
+            cursor: pointer;
+        }
+    }
+}
+.disabled{
+    color: grey;
+}
